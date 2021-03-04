@@ -14,6 +14,54 @@ height: 150px;
 width 150px;
 }
 
+.line {
+height: 6px;
+background-color: #000;
+width: 70px;
+margin: 8px auto;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+img {
+transition: transform .2s;
+border: 5px solid;
+}
+
+img:hover{
+transform: scale(0.9);
+}
+
+.menu{
+list-style: none;
+font-family:cursive;
+float:right;
+top:5px;
+left:30px;
+cursor: pointer; color:black;
+}
+
+.menu a{
+color:black !important
+}
+
+.links {
+float: left;
+color: #fff;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+font-family:fantasy;
+font-size: 20px
+}
 
 
+.links:hover {
+background-color:dodgerblue;
+}
 
+a {
+text-decoration: none;    
